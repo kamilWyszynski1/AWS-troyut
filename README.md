@@ -1,6 +1,6 @@
-#AWS-trout
+# AWS-trout
 
-##Purpose
+## Purpose
 Repository is created in order to learn AWS using terraform, docker and kubernetes
 
 ## Steps
