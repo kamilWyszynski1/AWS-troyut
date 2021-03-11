@@ -20,6 +20,14 @@ func TestAdd(t *testing.T) {
 			},
 			want: 2,
 		},
+		{
+			name: "test-fail-on-purpose",
+			args: args{
+				i1: 1,
+				i2: 1,
+			},
+			want: 3,
+		},
 	}
 	for _, tt := range tests {
 		t.Run(tt.name, func(t *testing.T) {
