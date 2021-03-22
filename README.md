@@ -4,7 +4,8 @@
 Repository is created in order to learn AWS using terraform, docker and kubernetes
 
 ## Steps
-* [ ] Create a simple app, push docker image to AWS ECR and deploy EC2 app using pushed image.
+* [x] Github Action for running tests
+* [x] Create a simple app, create Github Action that pushes image to ECR after merge to master
 
 
 ## Github action deploys app
